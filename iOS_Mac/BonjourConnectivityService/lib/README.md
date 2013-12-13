@@ -10,5 +10,11 @@ To use the library in your project, please do the following steps:
 1. Open you project in XCode, add all .h & .a files to the project.
 
 2. In your project's settings, in the ‘Build Settings’ tab, ‘Linking’ section, expand ‘Other Linker Flags’ sub-section and add the following flags:
-- Debug: -lJSONCoding-universal-debug, -lBonjourConnectivityService-universal-debug
-- Release: -lJSONCoding-universal-release, -lBonjourConnectivityService-universal-release
+- Debug: 
+```shell
+-lJSONCoding-universal-debug, -lBonjourConnectivityService-universal-debug
+```
+- Release:
+```shell
+-lJSONCoding-universal-release, -lBonjourConnectivityService-universal-release
+```
