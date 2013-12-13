@@ -1,0 +1,13 @@
+//
+// Prefix header for all source files of the 'BonjourConnectivityService_iOS' target in the 'BonjourConnectivityService' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#define DebugLog(format, ...) NSLog((@"%s-%d " format), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)

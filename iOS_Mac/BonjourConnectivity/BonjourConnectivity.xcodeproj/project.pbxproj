@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D988BB1185A000C0070C4C1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D988BAC185A000C0070C4C1 /* Default-568h@2x.png */; };
+		9D988BB2185A000C0070C4C1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D988BAD185A000C0070C4C1 /* Default.png */; };
+		9D988BB3185A000C0070C4C1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D988BAE185A000C0070C4C1 /* Default@2x.png */; };
+		9D988BB4185A000C0070C4C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D988BAF185A000C0070C4C1 /* main.m */; };
+		9D988BB7185A004C0070C4C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D988BB5185A004C0070C4C1 /* InfoPlist.strings */; };
+		9D988BBE185A00640070C4C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D988BB9185A00640070C4C1 /* AppDelegate.m */; };
+		9D988BBF185A00640070C4C1 /* DevicesListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D988BBB185A00640070C4C1 /* DevicesListViewController.m */; };
+		9D988BC0185A00640070C4C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D988BBD185A00640070C4C1 /* ViewController.m */; };
+		9D988BC3185A00790070C4C1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D988BC1185A00790070C4C1 /* MainStoryboard.storyboard */; };
+		C7367B0517085EDA006E50F2 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7367B0417085EDA006E50F2 /* CFNetwork.framework */; };
+		C7367B0717085F09006E50F2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7367B0617085F09006E50F2 /* Security.framework */; };
+		C7A91C1117083DF6000DDFD7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7A91C1017083DF6000DDFD7 /* UIKit.framework */; };
+		C7A91C1317083DF6000DDFD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7A91C1217083DF6000DDFD7 /* Foundation.framework */; };
+		C7A91C1517083DF6000DDFD7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7A91C1417083DF6000DDFD7 /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9D988BAA185A000C0070C4C1 /* BonjourConnectivity-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "BonjourConnectivity-Info.plist"; path = "BonjourConnectivity/BonjourConnectivity-Info.plist"; sourceTree = SOURCE_ROOT; };
+		9D988BAB185A000C0070C4C1 /* BonjourConnectivity-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "BonjourConnectivity-Prefix.pch"; path = "BonjourConnectivity/BonjourConnectivity-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		9D988BAC185A000C0070C4C1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "BonjourConnectivity/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		9D988BAD185A000C0070C4C1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = BonjourConnectivity/Default.png; sourceTree = SOURCE_ROOT; };
+		9D988BAE185A000C0070C4C1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "BonjourConnectivity/Default@2x.png"; sourceTree = SOURCE_ROOT; };
+		9D988BAF185A000C0070C4C1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = BonjourConnectivity/main.m; sourceTree = SOURCE_ROOT; };
+		9D988BB6185A004C0070C4C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = BonjourConnectivity/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		9D988BB8185A00640070C4C1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = BonjourConnectivity/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		9D988BB9185A00640070C4C1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = BonjourConnectivity/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		9D988BBA185A00640070C4C1 /* DevicesListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DevicesListViewController.h; path = BonjourConnectivity/DevicesListViewController.h; sourceTree = SOURCE_ROOT; };
+		9D988BBB185A00640070C4C1 /* DevicesListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DevicesListViewController.m; path = BonjourConnectivity/DevicesListViewController.m; sourceTree = SOURCE_ROOT; };
+		9D988BBC185A00640070C4C1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = BonjourConnectivity/ViewController.h; sourceTree = SOURCE_ROOT; };
+		9D988BBD185A00640070C4C1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = BonjourConnectivity/ViewController.m; sourceTree = SOURCE_ROOT; };
+		9D988BC2185A00790070C4C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = BonjourConnectivity/en.lproj/MainStoryboard.storyboard; sourceTree = SOURCE_ROOT; };
+		9DEC6447185AE60000F6839D /* BCDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCDevice.h; sourceTree = "<group>"; };
+		9DEC6448185AE60000F6839D /* BCService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCService.h; sourceTree = "<group>"; };
+		9DEC6449185AE60000F6839D /* BCTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCTypes.h; sourceTree = "<group>"; };
+		9DEC6457185AF06800F6839D /* libBonjourConnectivityService-universal-debug.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libBonjourConnectivityService-universal-debug.a"; sourceTree = "<group>"; };
+		9DEC6458185AF06800F6839D /* libBonjourConnectivityService-universal-release.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libBonjourConnectivityService-universal-release.a"; sourceTree = "<group>"; };
+		9DEC6459185AF06800F6839D /* libJSONCoding-universal-debug.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libJSONCoding-universal-debug.a"; sourceTree = "<group>"; };
+		9DEC645A185AF06800F6839D /* libJSONCoding-universal-release.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libJSONCoding-universal-release.a"; sourceTree = "<group>"; };
+		C7367B0417085EDA006E50F2 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C7367B0617085F09006E50F2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C7A91C0D17083DF6000DDFD7 /* BonjourConnectivity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BonjourConnectivity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7A91C1017083DF6000DDFD7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C7A91C1217083DF6000DDFD7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C7A91C1417083DF6000DDFD7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7A91C0A17083DF6000DDFD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7367B0717085F09006E50F2 /* Security.framework in Frameworks */,
+				C7367B0517085EDA006E50F2 /* CFNetwork.framework in Frameworks */,
+				C7A91C1117083DF6000DDFD7 /* UIKit.framework in Frameworks */,
+				C7A91C1317083DF6000DDFD7 /* Foundation.framework in Frameworks */,
+				C7A91C1517083DF6000DDFD7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DEC6445185AE60000F6839D /* BonjourConnectivityService */ = {
+			isa = PBXGroup;
+			children = (
+				9DEC6446185AE60000F6839D /* headers */,
+				9DEC644A185AE60000F6839D /* lib */,
+			);
+			name = BonjourConnectivityService;
+			path = BonjourConnectivity/BonjourConnectivityService;
+			sourceTree = "<group>";
+		};
+		9DEC6446185AE60000F6839D /* headers */ = {
+			isa = PBXGroup;
+			children = (
+				9DEC6447185AE60000F6839D /* BCDevice.h */,
+				9DEC6448185AE60000F6839D /* BCService.h */,
+				9DEC6449185AE60000F6839D /* BCTypes.h */,
+			);
+			path = headers;
+			sourceTree = "<group>";
+		};
+		9DEC644A185AE60000F6839D /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				9DEC6457185AF06800F6839D /* libBonjourConnectivityService-universal-debug.a */,
+				9DEC6458185AF06800F6839D /* libBonjourConnectivityService-universal-release.a */,
+				9DEC6459185AF06800F6839D /* libJSONCoding-universal-debug.a */,
+				9DEC645A185AF06800F6839D /* libJSONCoding-universal-release.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		C7A91C0417083DF6000DDFD7 = {
+			isa = PBXGroup;
+			children = (
+				9DEC6445185AE60000F6839D /* BonjourConnectivityService */,
+				C7A91C1617083DF6000DDFD7 /* BonjourConnectivity */,
+				C7A91C0F17083DF6000DDFD7 /* Frameworks */,
+				C7A91C0E17083DF6000DDFD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7A91C0E17083DF6000DDFD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7A91C0D17083DF6000DDFD7 /* BonjourConnectivity.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7A91C0F17083DF6000DDFD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7367B0617085F09006E50F2 /* Security.framework */,
+				C7367B0417085EDA006E50F2 /* CFNetwork.framework */,
+				C7A91C1017083DF6000DDFD7 /* UIKit.framework */,
+				C7A91C1217083DF6000DDFD7 /* Foundation.framework */,
+				C7A91C1417083DF6000DDFD7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7A91C1617083DF6000DDFD7 /* BonjourConnectivity */ = {
+			isa = PBXGroup;
+			children = (
+				9D988BB8185A00640070C4C1 /* AppDelegate.h */,
+				9D988BB9185A00640070C4C1 /* AppDelegate.m */,
+				9D988BBA185A00640070C4C1 /* DevicesListViewController.h */,
+				9D988BBB185A00640070C4C1 /* DevicesListViewController.m */,
+				9D988BBC185A00640070C4C1 /* ViewController.h */,
+				9D988BBD185A00640070C4C1 /* ViewController.m */,
+				9D988BC1185A00790070C4C1 /* MainStoryboard.storyboard */,
+				C7A91C1717083DF6000DDFD7 /* Supporting Files */,
+			);
+			path = BonjourConnectivity;
+			sourceTree = "<group>";
+		};
+		C7A91C1717083DF6000DDFD7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D988BB5185A004C0070C4C1 /* InfoPlist.strings */,
+				9D988BAA185A000C0070C4C1 /* BonjourConnectivity-Info.plist */,
+				9D988BAB185A000C0070C4C1 /* BonjourConnectivity-Prefix.pch */,
+				9D988BAC185A000C0070C4C1 /* Default-568h@2x.png */,
+				9D988BAD185A000C0070C4C1 /* Default.png */,
+				9D988BAE185A000C0070C4C1 /* Default@2x.png */,
+				9D988BAF185A000C0070C4C1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7A91C0C17083DF6000DDFD7 /* BonjourConnectivity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7A91C3017083DF6000DDFD7 /* Build configuration list for PBXNativeTarget "BonjourConnectivity" */;
+			buildPhases = (
+				C7A91C0917083DF6000DDFD7 /* Sources */,
+				C7A91C0A17083DF6000DDFD7 /* Frameworks */,
+				C7A91C0B17083DF6000DDFD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BonjourConnectivity;
+			productName = BonjourConnectivity;
+			productReference = C7A91C0D17083DF6000DDFD7 /* BonjourConnectivity.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7A91C0517083DF6000DDFD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Nikolay Mamaev";
+			};
+			buildConfigurationList = C7A91C0817083DF6000DDFD7 /* Build configuration list for PBXProject "BonjourConnectivity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C7A91C0417083DF6000DDFD7;
+			productRefGroup = C7A91C0E17083DF6000DDFD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7A91C0C17083DF6000DDFD7 /* BonjourConnectivity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7A91C0B17083DF6000DDFD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D988BC3185A00790070C4C1 /* MainStoryboard.storyboard in Resources */,
+				9D988BB3185A000C0070C4C1 /* Default@2x.png in Resources */,
+				9D988BB7185A004C0070C4C1 /* InfoPlist.strings in Resources */,
+				9D988BB2185A000C0070C4C1 /* Default.png in Resources */,
+				9D988BB1185A000C0070C4C1 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7A91C0917083DF6000DDFD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D988BC0185A00640070C4C1 /* ViewController.m in Sources */,
+				9D988BB4185A000C0070C4C1 /* main.m in Sources */,
+				9D988BBF185A00640070C4C1 /* DevicesListViewController.m in Sources */,
+				9D988BBE185A00640070C4C1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9D988BB5185A004C0070C4C1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D988BB6185A004C0070C4C1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9D988BC1185A00790070C4C1 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D988BC2185A00790070C4C1 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7A91C2E17083DF6000DDFD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C7A91C2F17083DF6000DDFD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7A91C3117083DF6000DDFD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcode *.pbproj *.pbxproj *.xcodeproj";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BonjourConnectivity/BonjourConnectivity-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "BonjourConnectivity/BonjourConnectivity-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/ruinnmam/Documents/personal/projects/BonjourConnectivity/BonjourConnectivity/BonjourConnectivityService/lib,
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lJSONCoding-universal-debug",
+					"-lBonjourConnectivityService-universal-debug",
+				);
+				PRODUCT_NAME = BonjourConnectivity;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C7A91C3217083DF6000DDFD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcode *.pbproj *.pbxproj *.xcodeproj";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BonjourConnectivity/BonjourConnectivity-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "BonjourConnectivity/BonjourConnectivity-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/ruinnmam/Documents/personal/projects/BonjourConnectivity/BonjourConnectivity/BonjourConnectivityService/lib,
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lJSONCoding-universal-release",
+					"-lBonjourConnectivityService-universal-release",
+				);
+				PRODUCT_NAME = BonjourConnectivity;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7A91C0817083DF6000DDFD7 /* Build configuration list for PBXProject "BonjourConnectivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7A91C2E17083DF6000DDFD7 /* Debug */,
+				C7A91C2F17083DF6000DDFD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7A91C3017083DF6000DDFD7 /* Build configuration list for PBXNativeTarget "BonjourConnectivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7A91C3117083DF6000DDFD7 /* Debug */,
+				C7A91C3217083DF6000DDFD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7A91C0517083DF6000DDFD7 /* Project object */;
+}

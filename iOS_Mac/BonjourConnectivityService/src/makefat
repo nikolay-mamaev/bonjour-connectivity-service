@@ -1,0 +1,20 @@
+#!/bin/bash
+
+if [ $# -ne 1 ];
+then
+   echo "Usage: makefat -[debug|release]"
+   echo "Example: makefat -debug"
+   exit 85
+fi
+
+if [ $1='debug' ];
+then
+   foldername="Debug"
+elif [ $1='release' ];
+then
+  foldername="Release"
+fi
+
+lipo -output Build/libBonjourConnectivityService-universal$1.a -create Build/Products/$foldername-iphoneos/libBonjourConnectivityService_iOS.a Build/Products/$foldername-iphonesimulator/libBonjourConnectivityService_iOS.a Build/Products/$foldername/libBonjourConnectivityService_MacOS.a
+
+lipo -output Build/libJSONCoding-universal$1.a -create Build/Products/$foldername-iphoneos/libJSONCoding.a Build/Products/$foldername-iphonesimulator/libJSONCoding.a Build/Products/$foldername/libJSONCodingMacOS.a
