@@ -21,7 +21,7 @@
 
 
 #pragma mark - Constants
-NSString* const kNetServiceType = @"_clipbrdshare._tcp.";
+NSString* const kNetServiceType = @"_bcservice._tcp.";
 NSString* const kDeviceInfoPersistentStorageName = @"StoredDevices.data";
 NSString* const kUniqeIdUserDefaultsKey = @"UniqeIdUserDefaultsName";
 const long kBCDeviceHandhsakeTag = 1;
