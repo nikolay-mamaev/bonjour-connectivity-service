@@ -6,11 +6,11 @@ To compile & install library files into your project, please do the following st
 1. In XCode with opened 'BonjourConnectivityService' project, edit the 'BonjourConnectivityService_iOS' build scheme, select 'Run' in the left pane, make sure that the 'Debug' value is selected in the 'Build Configuration' drop-down list. Do the same for 'BonjourConnectivityService_MacOS' build scheme
 
 2. Build the project 3 times:
-+ For 'BonjourConnectivityService_iOS' build scheme, iOS device
-+ For 'BonjourConnectivityService_iOS' build scheme, iPad Simulator
-+ For 'BonjourConnectivityService_MacOS' build scheme
-         
-Doing this will give you 3 directories like this in your respective Xcode/DerivedData directory. Mine are these:
+    + For 'BonjourConnectivityService_iOS' build scheme, iOS device
+    + For 'BonjourConnectivityService_iOS' build scheme, iPad Simulator
+    + For 'BonjourConnectivityService_MacOS' build scheme
+
+    Doing this will give you 3 directories like this in your respective ```Xcode/DerivedData``` directory. Mine are these:
 ```shell
 ~/Library/Developer/Xcode/DerivedData/BonjourConnectivityService-adudfboalbabrvbyvmuebpzflxnm/Build/Products/Debug
 ~/Library/Developer/Xcode/DerivedData/BonjourConnectivityService-adudfboalbabrvbyvmuebpzflxnm/Build/Products/Debug-iphoneos
@@ -34,10 +34,9 @@ cd ~/Library/Developer/Xcode/DerivedData/BonjourConnectivityService-adudfboalbab
 <BonjourConnectivityService_project_location>/makefat -debug
 <BonjourConnectivityService_project_location>/makefat -release
 ```
-
-You now have this:
-
-```shell   nmamaev-mac:BonjourConnectivityService-adudfboalbabrvbyvmuebpzflxnm ruinnmam$ ls -1F Build
+    You now have this:
+    ```shell
+nmamaev-mac:BonjourConnectivityService-adudfboalbabrvbyvmuebpzflxnm ruinnmam$ ls -1F Build
    Intermediates/
    Products/
    libBonjourConnectivityService-universal-debug.a
@@ -53,5 +52,5 @@ You now have this:
 8. Open you project in XCode, add all .h & .a files to the project.
 
 9. In your project's settings, in the ‘Build Settings’ tab, ‘Linking’ section, expand ‘Other Linker Flags’ sub-section and add the following flags:
-- Debug: -lJSONCoding-universal-debug, -lBonjourConnectivityService-universal-debug
-- Release: -lJSONCoding-universal-release, -lBonjourConnectivityService-universal-release
+    - Debug: ```-lJSONCoding-universal-debug, -lBonjourConnectivityService-universal-debug```
+    - Release: ```-lJSONCoding-universal-release, -lBonjourConnectivityService-universal-release```
