@@ -334,7 +334,7 @@ const NSTimeInterval kDefaultSocketTimeout = 2.0;
 
 - (NSArray*)inetAddressesFromArray:(NSArray*)addresses
 {
-    NSMutableArray* inetAddresses = [NSMutableArray arrayWithCapacity:self.netService.addresses.count];
+    NSMutableArray* inetAddresses = [NSMutableArray arrayWithCapacity:addresses.count];
     for (NSData* addr in addresses) {
         const struct sockaddr_in* socketaddr = (const struct sockaddr_in *)addr.bytes;
         if (AF_INET == socketaddr->sin_family) {
